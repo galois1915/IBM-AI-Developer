@@ -4,7 +4,8 @@
   <head>
     <!-- This is your page title that appears on the browser window or tab -->
     <title>Unit Conversions</title>
-    <link rel="stylesheet" type="text/css" href="unit_convertions.css">
+    <link rel="stylesheet" href="unit_convertions.css">
+    <script src="unit_conversions.js"></script>
   </head>
   <body>
     <section id="home">
@@ -39,11 +40,11 @@
                         <!-- The fields and button for temperature input will come here -->
                         <!-- Label for Temperature input -->
                         <label for="Temperature">Celsius</label> <br/>
-                        <input type="number" id="c"> <br/>
+                        <input type="number" id="celsius"> <br/>
                         <!-- The conversion button -->
-                        <button id="temperature"> Convert </button> <br/>
+                        <button id="temperature" onclick="temperature()"> Convert </button> <br/>
                         <!-- Label for Temperature output -->
-                        <input type="number" id="f"> <br/>
+                        <input type="number" id="fahrenheit"> <br/>
                         <label for="Temperature">Fahrenheit</label>
                     </fieldset>
                 </article>
@@ -67,11 +68,11 @@
                         <legend>Weight</legend>
                         <!-- Label for Weight input -->
                         <label for="Weight">Kilograms</label> <br/>
-                        <input type="number" id="kg"> <br/>
+                        <input type="number" id="kilo"> <br/>
                         <!-- The conversion button -->
-                        <button id="weight"> Convert </button> <br/>
+                        <button id="weight" onclick="weight()"> Convert </button> <br/>
                         <!-- Label for Weight output -->
-                        <input type="number" id="lbs"> <br/>
+                        <input type="number" id="pounds"> <br/>
                         <label for="Weight">Pounds</label>
                     </fieldset>
                 </article>
@@ -98,9 +99,9 @@
                         <label for="Distance">Kilometers</label> <br/>
                         <input type="number" id="km"> <br/>
                         <!-- The conversion button -->
-                        <button id="distance"> Convert </button> <br/>
+                        <button id="distance" onclick="distance()"> Convert </button> <br/>
                         <!-- Label for Distance output -->
-                        <input type="number" id="m"> <br/>
+                        <input type="number" id="miles"> <br/>
                         <label for="Distance">Miles</label>
                     </fieldset>
                 </article>

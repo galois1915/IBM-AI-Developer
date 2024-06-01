@@ -1,0 +1,131 @@
+* {
+    margin: 10px;
+    background-color: rgb(124, 107, 107);
+    color: white; /* To ensure text is readable on a black background */
+}
+
+#home {
+    margin: -1px;
+    padding-bottom: 2cm;
+    background-color: #87CEEB; /* Lighter shade of blue */
+}
+
+header {
+    font-size: 20px;
+    color: lightpurple; /* lightpurple is not a standard CSS color, use a close color */
+    float: left;
+    padding-left:1cm;
+}
+
+nav {
+    float: right;
+    padding-right: 1cm;
+}
+
+nav button {
+    color: lightgray;
+    background-color: darkpurple; /* Use a standard color close to dark purple */
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5mm;
+    font-size: 10px;
+    text-decoration: none; /* Optional */
+}
+
+
+
+nav button:hover {
+    color: rgb(172, 25, 25);
+    font-weight: bolder;
+    background-color: rgb(235, 24, 235);
+    text-decoration: none; /* Optional */
+}
+
+
+#all-conversion-sections {
+    display: grid;
+    place-items: center;
+}
+
+figure {
+    float: left;
+    justify-content: auto;
+    width: 300px;
+}
+
+figure img {
+    width: 200px;
+}
+
+figcaption {
+    color: black;
+    font-size: 17px;
+    text-align: center;
+}
+
+button[id] {
+    font-size: 20px;
+    border: transparent;
+    border-radius: 40px;
+    width: 100%; /* To fit the page width */
+    background-color: rgb(88, 138, 88);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+button[id]:hover {
+    cursor: pointer;
+}
+
+.b {
+    border-top: solid 20px;
+    border-radius: 10px;
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+}
+
+.temperature {
+    border-top-color: green;
+}
+/*
+.weight {
+    border-top-color: coral;
+}
+.distance {
+    border-top-color: cyan;
+}
+legend {
+    font-size: 30px;
+    font-weight: bolder;
+}
+#all-conversion-sections {
+    margin-left: 50px;
+}
+*/
+
+#go-home {
+    position: fixed;
+    bottom: 40px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: cyan;
+}
+#go-home img {
+    width: 30px;
+}
+
+
+footer {
+    background-color: lightpink;
+    margin-top: 20px;
+}
